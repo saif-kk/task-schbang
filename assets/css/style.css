@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "optima";
+    src: url("../fonts/OPTIMA.ttf");
+}
+
+@font-face {
+    font-family: "optima-bold";
+    src: url("../fonts/OPTIMA_B.ttf");
+}
+
+body{
+    overflow-x: hidden;
+    font-family: optima;
+}
+
+.header{
+    background: #00193E;
+    height:101px
+}
+
+
+.img-main img{
+    height:769px;
+}
+
+.second-layer{
+    padding: 3%;
+}
+
+.second-layer img{
+    height : 678px;
+    margin-left: 17%;
+}
+
+.text-secondL{
+    position: absolute;
+    margin-top: 10%;
+    width: 25%;
+    left: 2%;
+    color: #000;
+}
+
+.text-secondL h4{
+    text-transform: uppercase;
+    font-size: 41px;
+    /* font-family: "optima-bold"; */
+}
+
+.text-secondL p{
+    font-size: 25px;
+    width: 85%;
+}
+
+
+.third-layer{
+    background: #EFF3F8;
+    height: 788px;
+    padding: 5%;
+}
+
+#frontImage {
+    height:630px;
+    left:50px; 
+    position:absolute;
+    top:25px; 
+}
+
+#backImage {
+    height:670px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative; 
+    left: 105px;
+} 
+
+.third-layer h4{
+    font-size: 35px;
+}
+
+.third-layer p{
+    font-size: 25px;
+}
+
+.fourth-layer{
+    padding: 5%;
+}
+
+#recipeImg {
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    height: 272px;
+}
+
+#scoopImg { 
+    left:32%; 
+    position:absolute;
+    margin-top: 4%;
+    height: 190px;
+    opacity: 0.8;
+} 
+
+.fourth-layer h4{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 35px;
+    text-align: -webkit-center;
+}
+
+.fourth-layer p{
+    margin: auto;
+    font-size: 25px;
+}
+
+/* .gallery{
+    margin-top: 25px;
+    margin-bottom: 25px;
+} */
+.gallery .box{
+    width:83%;
+    margin: auto;
+    margin-top: 35px;
+    border: 1px solid #979797;
+}
+
+.gallery .box img{
+    width: 259px;
+}
