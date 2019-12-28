@@ -102,7 +102,7 @@ header{
 } 
 
 .fourth-layer h4{
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
     font-size: 35px;
     text-align: -webkit-center;
@@ -154,6 +154,10 @@ header{
 .fifth-layer{
     background: #FFF8F2;
     padding: 4%;
+}
+
+.fifth-layer .img-diff img{
+       margin-top: 1%;
 }
 
 .btn-download{
