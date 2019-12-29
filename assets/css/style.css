@@ -51,6 +51,17 @@ header{
     width: 85%;
 }
 
+.text-secondL-btn{
+    position: absolute;
+    margin-top: 23%;
+    right: 9%;
+    color: #000;
+    float: right;
+}
+
+.text-secondL-btn img{
+    /* width: 43px; */
+}
 
 .third-layer{
     background: #EFF3F8;
@@ -150,14 +161,58 @@ header{
     margin-left: -23.5%;
 }
 
-
+.vPlayer{
+    position: absolute;
+    top: 42%;
+    left: 45%;
+    cursor: pointer;
+}
 .fifth-layer{
     background: #FFF8F2;
     padding: 4%;
 }
 
+.img-diff{
+text-align: center;
+margin: 22px auto;
+width: 85%;
+line-height: 0;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 0px;
+  -moz-column-count: 5;
+  -moz-column-gap: 0px;
+  column-count: 4;
+  column-gap: 0px;  
+}
+
 .fifth-layer .img-diff img{
-       margin-top: 1%;
+   padding : 1%;
+}
+
+.fifth-layer .img-diff .column1-img{
+    margin-top: 48%;
+}
+
+.fifth-layer .img-diff .column2-img{
+    margin-top: 3%;
+}
+.fifth-layer .img-diff .column3-img{
+    margin-top: 18%;
+    margin-left: 1.5%;
+    float: left;
+
+}
+.fifth-layer .img-diff .column4-img{
+    margin-top: 54%;
+    float: left
+}
+
+.fifth-layer h4{
+    font-size: 30px;
+    font-family: Helvetica;
+    color: #AD9558;
+    margin: 0 auto;
+    text-transform: uppercase;
 }
 
 .btn-download{
@@ -203,6 +258,14 @@ footer{
 footer label{
     text-transform: uppercase;
     color: #fff;
+    font-size: 12px !important;
+    font-family: Helvetica;
+}
+
+footer #subscribeForm{
+    width: 46%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 footer #searchBar{
@@ -238,6 +301,26 @@ footer #searchBar::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     height: 13px;
     border-radius: 50%;
     padding-left: 0;
+}
+
+footer .footerL{
+    color: #fff;
+    width: 83%;
+    margin: auto;
+    font-size: 12px;
+}
+
+footer .footerL img{
+    margin: 0 7px;
+}
+
+.footerL .col-sm-4{
+    text-align: center;
+}
+
+.footerL a{
+    text-decoration: none;
+    color: #fff;
 }
 /* =================================================== */
 
@@ -275,6 +358,10 @@ footer #searchBar::-webkit-input-placeholder { /* Chrome/Opera/Safari */
         border-color: #AD9558;
     }
     
+    .fifth-layer .img-diff img{
+        margin-left: 0 !important;
+    }
+
     .navbar-toggler-icon{
         font-size: 22px;
         padding-top: 7px;
@@ -295,6 +382,14 @@ footer #searchBar::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 
     .nav-item .nav-link {
         color: #fff;
+    }
+
+    .text-secondL-btn{
+        margin-top: 4%;
+    }
+
+    .text-secondL-btn{
+        width: 95px;
     }
 
     .navbar-brand img{
@@ -341,4 +436,33 @@ footer #searchBar::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     .caption-top button img{
         width: 95px
     }
+
+    footer{
+        height: 351px;
+    }
+    footer .navbar-nav{
+        display: inline-block !important;
+        text-align: justify
+    }
+
+    footer .nav-item{
+        display: inline-block;
+        text-align: justify;
+    }
+
+    footer .navbar-nav{
+        margin-left: 0 !important;
+    }
+
+    footer #subscribeForm {
+        width: 70%;
+    }
+
+    footer #subscribeForm img{
+        margin-left: 2%
+    }
+
+   .footerL .col-sm-4{
+       margin-top:3px
+   }
 }
