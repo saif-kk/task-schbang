@@ -200,6 +200,45 @@ footer{
     height: 296px;
 }
 
+footer label{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+footer #searchBar{
+    border-radius: 50px;
+    width: 250px;
+    background: #757575;
+    border: 1px solid #fff;
+    color: #fff
+}
+
+footer #searchBar::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-family: Helvetica;
+  }
+.caption-top{
+    text-align: left !important;
+    right: 0;
+    bottom: 19%;
+    left: 10%;    
+}
+
+.carousel-top-indicator{
+    right: 0;
+    bottom: 7%;
+    left: -8%;
+    justify-content: left;
+}
+
+.carousel-top-indicator li{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    padding-left: 0;
+}
 /* =================================================== */
 
 .logo{
@@ -232,6 +271,35 @@ footer{
 
 
 @media (min-width: 375px) and (max-width: 785px) {
+    .navbar-toggler{
+        border-color: #AD9558;
+    }
+    
+    .navbar-toggler-icon{
+        font-size: 22px;
+        padding-top: 7px;
+        color: #AD9558;
+    }
+
+    .navbar-collapse{
+        z-index: 999;
+        background: #00193E !important;
+        margin-left: 35%;
+        text-align: right;
+    }
+
+    .navbar-nav{
+        /* margin-left: 8% !important; */
+        text-align: right;
+    }
+
+    .nav-item .nav-link {
+        color: #fff;
+    }
+
+    .navbar-brand img{
+        margin-left: 0 !important;
+    }
     .text-secondL {
         position: relative;
        width: 100%;
@@ -244,9 +312,9 @@ footer{
     }
     
     #scoopImg {
-        left: 0%;
-        margin-top: 29%;
-         opacity: 0.5;
+        left: -1%;
+        margin-top: 3%;
+        opacity: 0.5;
     }
 
     #backImage{
@@ -255,5 +323,22 @@ footer{
 
     #frontImage{
         left:12px
+    }
+
+    .caption-top {
+        bottom: 2%;
+        left: 5%;
+    }  
+    
+    .carousel-top-indicator li {
+        width: 10px;
+        height: 10px;
+    }
+    .carousel-top-indicator {
+        right: 0;
+        bottom: -8%;
+    }
+    .caption-top button img{
+        width: 95px
     }
 }
