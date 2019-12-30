@@ -1,5 +1,5 @@
 var footer= `<footer>
-    <div class="container" style="padding:1%">
+    <div class="container">
         <div class="row">
             <a class="navbar-brand" href="#" style="margin: auto">
                 <img src="assets/images/Group_112.png" alt="logo">
@@ -32,7 +32,7 @@ var footer= `<footer>
             <form id="subscribeForm">
                 <div class="form-group row">
                     <label class="col-sm-2 col-form-label" for="searchBar">Subscribe</label>
-                    <input type="text" class="col-sm-6" id="searchBar" placeholder="ENTER YOUR EMAIL"> <img src="assets/images/footerR.png" style="float:left;margin-left:2%">
+                    <input type="text" class="col-sm-6" id="searchBar" placeholder="ENTER YOUR EMAIL"> <button class="btn"><img src="assets/images/footerR.png" style="float:left;margin-left:2%"></button>
                 </div>
             </form>
         </div>
